@@ -1,0 +1,4 @@
+Configuration,Learning Rate,Discount Factor,Epsilon Decay,Average Reward,Average Steps,Success Rate
+Baseline,0.7,0.95,0.995,7.872,13.128,100.0
+Fast Learning,0.9,0.95,0.995,8.11,12.89,100.0
+Slow Exploration Decay,0.7,0.95,0.999,7.844,13.156,100.0
