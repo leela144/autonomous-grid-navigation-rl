@@ -282,6 +282,8 @@ Optimal Steps / RL Steps × 100
 ```bash
 streamlit run app.py
 ```
+---
+
 ## 📊 Dashboard Performance Metrics
 
 The Streamlit dashboard displays:
@@ -295,6 +297,7 @@ The Streamlit dashboard displays:
 -Learned Action Sequence
 -Route Coordinates
 ---
+
 ## 🛠️ Technologies Used
  -Python
 -Gymnasium
