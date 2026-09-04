@@ -285,7 +285,7 @@ streamlit run app.py
 ---
 
 ## 📊 Dashboard Performance Metrics
-
+```markdown
 The Streamlit dashboard displays:
 
 -RL Agent Steps
@@ -299,6 +299,8 @@ The Streamlit dashboard displays:
 ---
 
 ## 🛠️ Technologies Used
+```markdown 
+
  -Python
 -Gymnasium
 -NumPy
@@ -310,7 +312,7 @@ The Streamlit dashboard displays:
 -Reinforcement Learning
 ---
 ## 📚 Learning Outcomes
-
+```markdown
 This project provided practical experience with:
 
 -Reinforcement Learning
@@ -326,4 +328,5 @@ This project provided practical experience with:
 -Hyperparameter experimentation
 -Streamlit application development
 -Modular Python project design
+
 ---
