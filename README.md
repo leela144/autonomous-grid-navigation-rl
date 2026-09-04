@@ -274,9 +274,10 @@ Q(s,a) ← Q(s,a) + α [r + γ max Q(s',a') − Q(s,a)]
 ## 📐 Route Efficiency
 
 Route efficiency is calculated by comparing the learned route length with the shortest valid route.
-
+```text
 Route Efficiency =
 Optimal Steps / RL Steps × 100
+```
 ---
 ## 🖥️ Streamlit Dashboard
 ```bash
@@ -285,48 +286,49 @@ streamlit run app.py
 ---
 
 ## 📊 Dashboard Performance Metrics
-```markdown
+
 The Streamlit dashboard displays:
 
--RL Agent Steps
--Optimal Steps
--Extra Steps
--Route Efficiency
--Task Success
--Route Optimality
--Learned Action Sequence
--Route Coordinates
+- RL Agent Steps
+- Optimal Steps
+- Extra Steps
+- Route Efficiency
+- Task Success
+- Route Optimality
+- Learned Action Sequence
+- Route Coordinates
 ---
 
 ## 🛠️ Technologies Used
-```markdown 
 
- -Python
--Gymnasium
--NumPy
--Pandas
--Matplotlib
--Streamlit
--Q-Learning
--Breadth-First Search (BFS)
--Reinforcement Learning
+
+  -Python
+- Gymnasium
+- NumPy
+- Pandas
+- Matplotlib
+- Streamlit
+- Q-Learning
+- Breadth-First Search (BFS)
+- Reinforcement Learning
 ---
+
 ## 📚 Learning Outcomes
-```markdown
+
 This project provided practical experience with:
 
--Reinforcement Learning
--Q-Learning
--Markov Decision Processes
--Exploration vs exploitation
--Reward engineering
--State-action modeling
--Policy learning
--Training analysis
--Baseline comparison
--Shortest-path algorithms
--Hyperparameter experimentation
--Streamlit application development
--Modular Python project design
+- Reinforcement Learning
+- Q-Learning
+- Markov Decision Processes
+- Exploration vs exploitation
+- Reward engineering
+- State-action modeling
+- Policy learning
+- Training analysis
+- Baseline comparison
+- Shortest-path algorithms
+- Hyperparameter experimentation
+- Streamlit application development
+- Modular Python project design
 
 ---
